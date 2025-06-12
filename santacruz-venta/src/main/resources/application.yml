@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: santacruz-venta-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://camila:rosa@localhost:7070

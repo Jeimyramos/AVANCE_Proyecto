@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: santacruz-auth-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http://camila:rosa@localhost:7070
+jwt:
+  secret: secret

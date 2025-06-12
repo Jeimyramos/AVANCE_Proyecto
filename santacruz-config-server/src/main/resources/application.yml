@@ -1,0 +1,17 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: santacruz-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/camilamamanipaucar/SANTA-CRUZ-BOTICA.git
+          searchPaths: santacruz-config-data
+          default-label: Principal
+  security:
+    user:
+      name: camila
+      password: rosa
